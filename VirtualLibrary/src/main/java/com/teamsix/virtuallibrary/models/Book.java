@@ -4,7 +4,7 @@
  * C211
  * 12/2/2021
  */
-package com.teamsix.virtuallibrary;
+package com.teamsix.virtuallibrary.models;
 
 public class Book {
     
