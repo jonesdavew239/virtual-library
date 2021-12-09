@@ -10,13 +10,13 @@ import java.util.Date;
 
 public class MemberBook {
     
-    private int memberId;
-    private int bookId;
-    private Date dateLoaned;
-    private Date dateDue;
-    private Date dateReturned;
+    public int memberId;
+    public int bookId;
+    public Date dateLoaned;
+    public Date dateDue;
+    public Date dateReturned;
     
-    MemberBook (int memberId, int bookId, Date dateLoaned, Date dateDue, 
+    public MemberBook (int memberId, int bookId, Date dateLoaned, Date dateDue, 
             Date dateReturned){
     
         this.memberId = memberId;

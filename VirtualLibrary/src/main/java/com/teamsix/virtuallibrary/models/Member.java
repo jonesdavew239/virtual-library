@@ -10,17 +10,17 @@ import java.util.Date;
 
 public class Member {
     
-    private int memberId;
-    private int libraryId;
-    private String memberFirstName;
-    private String memberLastName;
-    private String memberPhoneNumber;
-    private String memberEmail; 
-    private Date dateCreated; 
-    private String status; 
-    private Boolean isActive; 
+    public int memberId;
+    public int libraryId;
+    public String memberFirstName;
+    public String memberLastName;
+    public String memberPhoneNumber;
+    public String memberEmail; 
+    public Date dateCreated; 
+    public String status; 
+    public Boolean isActive; 
      
-    Member (int memberId, int libraryId, String memberFirstName, 
+    public Member (int memberId, int libraryId, String memberFirstName, 
             String memberLastName, String memberPhoneNumber, 
             String memberEmail, Date dateCreated, String status, 
             Boolean isActive) {
