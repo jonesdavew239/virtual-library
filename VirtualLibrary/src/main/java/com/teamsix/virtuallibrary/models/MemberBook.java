@@ -6,15 +6,34 @@
  */
 package com.teamsix.virtuallibrary.models;
 
+import java.util.Calendar;
 import java.util.Date;
+import java.util.Scanner;
 
 public class MemberBook {
+    
+    Scanner input = new Scanner(System.in);
+    Calendar calendar = Calendar.getInstance();
     
     public int memberId;
     public int bookId;
     public Date dateLoaned;
     public Date dateDue;
     public Date dateReturned;
+    
+    public MemberBook(){
+        System.out.println("Enter the member id checking out the book:");
+        this.memberId = input.nextInt();
+        
+        System.out.println("Enter the book id to be checked out.");
+        this.bookId = input.nextInt();
+        
+        this.dateLoaned = new java.util.Date();
+        
+        // book due in 30 days
+        calendar.add(Calendar.DATE, 30);
+        this.dateDue = calendar.getTime();        
+    }
     
     public MemberBook (int memberId, int bookId, Date dateLoaned, Date dateDue, 
             Date dateReturned){
