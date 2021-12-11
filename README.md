@@ -58,7 +58,13 @@ Amy Osborne:
 David Jones:
 - Engaged in Email Correspondence for Project Planning
 - Attended two planning meetings and Zoom meeting with Professor
-- Created GitHub
+- Project Team Leader (GitHub User Name jonesdavew239)
+- Created GitHub virtual-library repository and linked project with SSH Key using Git Bash
+- Received models, repositories, and menu from Team Members and made revisions
+- Finalized models, repositories, and main 
+- Commit code to GitHub using Git Bash 
+- Created jar and README files
+- Submitted project 
 
 
 
