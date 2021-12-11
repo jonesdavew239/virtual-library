@@ -64,7 +64,7 @@ David Jones:
 - Created GitHub virtual-library repository and linked project with SSH Key using Git Bash
 - Received models, repositories, and menu from Team Members and made revisions
 - Finalized models, repositories, and main 
-- Commit code to GitHub using Git Bash 
+- Commit code to GitHub using Git Bash (10 Commits)
 - Created jar and README files
 - Submitted project 
 
