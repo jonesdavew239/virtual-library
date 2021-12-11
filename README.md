@@ -8,11 +8,13 @@ This is a virtual library console application that allows users to create member
 This project contains models, repositories, and menus. 
 
 Models: Keep the state of the objects. (Book, Library, Member, MemberBook) 
+
 Repositories: Manipulate the objects. (BookRepo, LibraryRepo, MemberRepo)   
+
 Menus: Navigate the user. (Main)
 
 ## How to Use This App
-Users are able to navigate a main menu with options to Exit Application, Library Menu, Members Menu, and Books Menu.
+Users are able to navigate a main menu with options to Exit Application, Access Library Menu, Access Members Menu, and Access Book Menu.
 
 ## Library Menu
 - Checkout Library Book
